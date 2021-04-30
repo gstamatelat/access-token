@@ -21,6 +21,7 @@ print()
 oauth = (
     "https://accounts.google.com/o/oauth2/v2/auth?"
     "scope={scope}"
+    "&access_type=offline"
     "&response_type=code"
     "&client_id={client_id}"
     "&redirect_uri=urn:ietf:wg:oauth:2.0:oob"
